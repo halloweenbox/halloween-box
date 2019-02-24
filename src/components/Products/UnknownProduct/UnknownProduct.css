@@ -1,0 +1,10 @@
+.UnknownProduct {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFFFFF;
+}
+
+.question-mark {
+	height: 150px;
+}

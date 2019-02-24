@@ -1,0 +1,48 @@
+.home-footer {
+	position: absolute;
+	top: 650px;
+	left: 0;
+	right: 0;
+	margin: 20px 0;
+}
+
+.products-footer {
+	margin: 20px 0;
+}
+
+.summary-footer {
+	margin: 30px 0 20px 0;
+}
+
+.about-footer {
+	margin: 50px 0 20px 0;
+}
+
+.footer-children {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FF6D00;
+}
+
+.footer-img {
+	height: 50px;
+	margin: 0 5px;
+}
+
+.tilde {
+	margin: 0 10px;
+	font-size: 50px;
+}
+
+@media (max-width: 1170px) {
+	.home-footer {
+		top: 775px;
+	}
+}
+
+@media (min-width: 1500px) {
+	.home-footer {
+		top: 800px;
+	}
+}

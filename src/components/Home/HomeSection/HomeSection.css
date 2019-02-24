@@ -1,0 +1,50 @@
+.HomeSection {
+	position: absolute;
+	top: 450px;
+	right: 0;
+	left: 0;
+}
+
+.link-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.link-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 350px;
+	height: 60px;
+	margin: 20px;
+	border-radius: 10px;
+	background: #FFFFFF;
+	cursor: pointer;
+	transition: all 0.1s linear; 
+}
+
+.link-button:hover {
+	box-shadow: 0 0 20px #FFFFFF;
+}
+
+.link-button:active {
+	box-shadow: 0 0 5px #FFFFFF;
+	transform: scale(0.95);
+}
+
+@media only screen and (max-width: 800px) {
+	.HomeSection {
+		top: 400px;
+	}
+
+	.link-button {
+		margin: 10px;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+	.HomeSection {
+		top: 600px;
+	}
+}

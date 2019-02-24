@@ -1,0 +1,22 @@
+.About {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+.paragraph-container {
+	width: 80%;
+}
+
+.paragraph {
+	margin-top: -20px;
+	margin-bottom: 10px;
+	text-align: center;
+	text-shadow: 0 0 5px #000000;
+}
+
+@media only screen and (max-width: 600px) {
+	.About {
+		margin-top: 90px;
+	}
+}

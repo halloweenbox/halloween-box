@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'LACETRIM';
+  src: url('fonts/LACETRIM.woff2')
+		 format('woff2'),
+		 url('fonts/LACETRIM.woff') 
+		 format('woff'),
+		 url('fonts/LACETRIM.ttf') 
+		 format('truetype');
+}
+
+* {
+	margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: #424242;
+  margin-top: 60px;
+}
+
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 30px;
+  font-family: 'LACETRIM';
+}
+
+.bright-heading {
+  padding: 30px;
+  text-shadow: 0 0 10px #000000;
+  color: #FF6D00;
+}
+
+.dark-heading {
+  padding-top: 20px;
+  text-shadow: 0 0 5px #000000;
+  color: #000000;
+}
